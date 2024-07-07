@@ -34,6 +34,7 @@
 .coin-name p b{
 font-size: 44px;
 font-weight: 500;
+color: white;
 }
 .coin-chart{
     max-width: 600px;
@@ -41,9 +42,33 @@ font-weight: 500;
     margin: auto;
 
 }
+.coin-timeRange{
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.coin-timeRange button{
+    color: white;
+    padding: 5px;
+    width: 100px;
+    max-width: 100px;
+    background-color: transparent;
+    border: 1px solid #4500c6;
+    border-radius: 5px;
+}
+.coin-timeRange button:hover{
+    font-weight: bold;
+    border: 2px solid #4500c6;
+    cursor: pointer;
+}
 
 
 .coin-info{
+    color: white;
     max-width: 600px;
     margin: 50px auto;
     display: flex;
@@ -60,3 +85,5 @@ font-weight: 500;
 .coin-info ul li:last-child{
     font-weight: 300;
 }
+
+
